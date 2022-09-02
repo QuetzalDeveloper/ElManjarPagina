@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="imagenes/icono.ico" />
+
+  <title>El Manjar</title>
+<!--
+
+Template 2101 Insertion
+
+http://www.tooplate.com/view/2101-insertion
+
+-->
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">        <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">                                            <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">                                      <!-- Font awesome -->
+  <link rel="stylesheet" href="css/tooplate-style.css">                                           <!-- Templatemo style -->
+
+  <script>
+    var renderPage = true;
+
+    if (navigator.userAgent.indexOf('MSIE') !== -1
+      || navigator.appVersion.indexOf('Trident/') > 0) {
+      /* Microsoft Internet Explorer detected in. */
+      alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+      renderPage = false;
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <div class="tm-main">
+
+    <div class="tm-welcome-section">
+      <div class="container tm-navbar-container">
+        <div class="row">
+          <div class="col-xl-12">
+            <nav class="navbar navbar-expand-sm">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a href="index.php" class="nav-link tm-nav-link tm-text-white active">El manjar</a>
+                </li>
+                <li class="nav-item">
+                  <a href="menu.php" class="nav-link tm-nav-link tm-text-white">Menú</a>
+                </li>
+                <li class="nav-item">
+                  <a href="eventos.php" class="nav-link tm-nav-link tm-text-white">Servicio de eventos</a>
+				</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center tm-welcome-container">
+        <div class="tm-welcome">
+          <!--i class="fas tm-fa-big fa-music tm-fa-mb-big"></i-->
+		 <img src= "imagenes/logo.png" width="300" class = "fas tm-fa-big tm-fa-mb-big img-fluid"> 
+          <h1 class="text-uppercase mb-3 tm-site-name">El manjar</h1>
+          <p class="tm-site-description">Rerstaurante Gourmet</p>
+        </div>
+      </div>
+
+    </div>
+
+	  <!-- Carrusel de imagenes-->
+		<div class="tm-tab-content-container">
+		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			  <li data-target="#myCarousel" data-slide-to="1"></li>
+			  <li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+			  <div class="item active">
+				<img src="imagenes/foto1.jpg" alt="Los Angeles" style="width:100%;">
+			  </div>
+
+			  <div class="item">
+				<img src="imagenes/foto2.jpg" alt="Chicago" style="width:100%;">
+			  </div>
+
+			  <div class="item">
+				<img src="imagenes/foto3.jpg" alt="New york" style="width:100%;">
+			  </div>
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+			</div>
+<!-- Fin de caruusel de imagenes-->		
+
+      <div class="row tm-albums-container grid">
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+          <figure class="effect-sadie">
+            <img src="imagenes/foto1.jpg" alt="Image" class="img-fluid">
+            <figcaption>
+              <h2>Foto 1</h2>
+              <p>Describir imagen de foto 1</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+          <figure class="effect-sadie">
+            <img src="imagenes/foto2.jpg"  alt="Image" class="img-fluid">
+            <figcaption>
+              <h2>Foto 2</h2>
+              <p>Describir imagen de foto 2</p>
+            </figcaption>
+          </figure>
+        </div>
+		  
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+          <figure class="effect-sadie">
+            <img src="imagenes/foto3.jpg"  alt="Image" class="img-fluid">
+            <figcaption>
+              <h2>Foto 3</h2>
+              <p>Describir imagen de foto 3</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+          <figure class="effect-sadie">
+            <img src="imagenes/foto4.jpg"  alt="Image" class="img-fluid">
+            <figcaption>
+              <h2>Foto 4</h2>
+              <p>Describir inmagen foto 4</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+		
+<!--Imagen con texto-->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="tm-tag-line">
+          <h2 class="tm-tag-line-title">Servicio a la carta, buffet y eventos sociales.</h2>
+          </div>
+        </div>
+      </div>
+<!--Fin de imagen con texto-->
+		
+<!--Paneles con menu lateral-->
+      <div class="row tm-about-row tm-mb-medium">
+	<!--Menu lateral-->
+        <div class="tm-tab-links-container">
+
+          <ul class="nav nav-tabs" id="tmTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link tm-bg-gray tm-media-v-center tm-tab-link active" id="home-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="home" aria-selected="true">
+                <i class="fas fa-2x fa-utensils pr-4"></i>
+                <p class="media-body mb-0 tm-media-link">Negocio</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-bg-gray tm-media-v-center tm-tab-link" id="profile-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="profile" aria-selected="false">
+                <i class="fas fa-2x fa-id-card pr-4"></i>
+                <p class="media-body mb-0 tm-media-link">Contacto</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-bg-gray tm-media-v-center tm-tab-link" id="contact-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="contact" aria-selected="false">
+                <i class="fas fa-2x fa-map-marker-alt pr-4"></i>
+                <p class="media-body mb-0 tm-media-link">Dirección</p>
+              </a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link tm-bg-gray tm-media-v-center tm-tab-link" id="contact-tab" data-toggle="tab" href="#tab4" role="tab" aria-controls="contact" aria-selected="false">
+                <i class="fas fa-2x fa-clock pr-4"></i>
+                <p class="media-body mb-0 tm-media-link">Horarios</p>
+              </a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link tm-bg-gray tm-media-v-center tm-tab-link" id="contact-tab" data-toggle="tab" href="#tab5" role="tab" aria-controls="contact" aria-selected="false">
+                <i class="fas fa-2x fa-truck pr-4"></i>
+                <p class="media-body mb-0 tm-media-link">Entrega</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link tm-bg-gray tm-media-v-center tm-tab-link" id="contact-tab" data-toggle="tab" href="#tab6" role="tab" aria-controls="contact" aria-selected="false">
+                <i class="fas fa-2x fa-image pr-4"></i>
+                <p class="media-body mb-0 tm-media-link">Imagen del negocio</p>
+              </a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link tm-bg-gray tm-media-v-center tm-tab-link" id="contact-tab" data-toggle="tab" href="#tab7" role="tab" aria-controls="contact" aria-selected="false">
+                <i class="fas fa-2x fa-key pr-4"></i>
+                <p class="media-body mb-0 tm-media-link">Cambio de contraseña</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+	<!--FIN de menu lateral-->
+	<!--Paneles de informacion-->
+        <div class="tm-tab-content-container">
+          <div class="tab-content h-100 tm-bg-gray" id="myTabContent">
+			 <!--Panel de negocio-->
+            <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+              <div class="media tm-media-2">
+                <i class="fas fa-5x fa-utensils mb-3 tm-text-wine tm-media-2-icon"></i>
+                <div class="media-body tm-media-body-2">
+                	<p>Información básica del negocio. Se te pedirá volver a iniciar sesión.</p> 
+            <form action="#" method="post">
+              <div class="form-group mb-4">
+                <input type="text" id="negnombre" name="negnombre" class="form-control" placeholder="Nombre del negocio" required/>
+              </div>
+			<div class="form-group mb-4">
+                <input type="text" id="lema" name="lema" class="form-control" placeholder="Slogan del negocio" />
+              </div>
+
+              <div class="form-group mb-4">
+                <select name="categorias" class="tm-select" id="categorias" required>
+                  <option value="">Tu categoría</option>
+                  <option value="staff">Comida rápida</option>
+                  <option value="manager">Gourmet</option>
+                  <option value="director">Temático</option>
+                  <option value="owner">Buffet</option>
+				  <option value="owner">Familiar</option>
+                </select>
+              </div>
+				<div class="form-group mb-0">
+                <button type="submit" class="btn btn-secondary">Cambiar</button>
+              </div>
+            </form>	
+                </div>
+              </div>
+            </div>
+			<!--Panel de contacto-->
+            <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+              <div class="media tm-media-2">
+                <i class="fas fa-5x fa-id-card mb-3 tm-text-wine tm-media-2-icon"></i>
+                <div class="media-body tm-media-body-2">
+                 <p>Información de contácto. Verifica tus datos antes de guardar. El correo no puede ser cambiado.</p>
+			<form action="#" method="post">
+              <div class="form-group mb-4">
+                <input type="email" id="correo" name="correo" class="form-control" placeholder="Correo" required/>
+              </div>
+				<div class="form-group mb-4">
+                <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre del usuario" required/>
+              </div>
+				<div class="form-group mb-4">
+                <input type="text" id="apellidos" name="apellidos" class="form-control" placeholder="Apellidos del usuario" required/>
+              </div>
+				<div class="form-group mb-4">
+                <input type="text" id="telefono" name="telefono" class="form-control" placeholder="Telefono del negocio" required/>
+              </div>	
+              <div class="form-group mb-0">
+                <button type="submit" class="btn btn-secondary">Cambiar</button>
+              </div>
+            </form>					
+					
+                </div>
+              </div>
+            </div>
+			<!--Panel de direccion-->
+            <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+              <div class="media tm-media-2">
+                <i class="fas fa-5x fa-map-marker-alt mb-3 tm-text-wine tm-media-2-icon"></i>
+                <div class="media-body tm-media-body-2">
+					<p>Con tu dirección, el cliente podrá localizar tu negocio. Con tu enlace o latitud y longitud de Google maps, el cliente podrá tener indicaciones de como llegar a tu restaurante.</p>
+                  <form action="#" method="post">
+				<div class="form-group mb-4">
+                <input type="text" id="calle" name="calle" class="form-control" placeholder="Calle" required/>
+              </div>
+				<div class="form-group mb-4">
+                <input type="number" id="numero" name="numero" class="form-control" placeholder="Número" required/>
+              </div>
+				<div class="form-group mb-4">
+                <input type="number" id="cp" name="cp" class="form-control" placeholder="Código postal" required/>
+              </div>
+				<div class="form-group mb-4">
+                <input type="text" id="colonia" name="colonia" class="form-control" placeholder="Colonia" required/>
+              </div>
+				<div class="form-group mb-4">
+                <input type="text" id="municipio" name="municipio" class="form-control" placeholder="Municipio/delegación" required/>
+              </div>
+				<div class="form-group mb-4">
+                <input type="text" id="estado" name="estado" class="form-control" placeholder="Estado" required/>
+              </div>
+				<p>Si tu negocio esta en maps, pega el enlace aqui:</p>
+				<div class="form-group mb-4">
+                <input type="text" id="maps" name="maps" class="form-control" placeholder="Enlace" />
+              </div>
+				<p>Si no estas registrado en maps, coloca la latitud y longitud:</p>
+				<div class="form-group mb-4">
+                <input type="text" id="latitud" name="latitud" class="form-control" placeholder="Latitud" />
+			</div>
+				<div class="form-group mb-4">
+                <input type="text" id="longitud" name="longitud" class="form-control" placeholder="Longitud" />
+              </div>
+              <div class="form-group mb-0">
+                <button type="submit" class="btn btn-secondary">Cambiar</button>
+              </div>
+            </form>
+                </div>
+              </div>
+            </div>
+			  <!--Panel de Horarios-->
+			  <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+              <div class="media tm-media-2">
+                <i class="fas fa-5x fa-clock mb-3 tm-text-wine tm-media-2-icon"></i>
+                <div class="media-body tm-media-body-2">
+                	<p>Horarios de apertura y cierre de tu negocio. Los clientes podran saber si tu negocio esta disponible los días y horas que desean.</p> 
+            <form action="#" method="post">
+               <div class="form-group mb-4">
+				   Lunes:
+                <select name="luna" class="tm-select" id="luna" required>
+                  	<option value="n">Apertura</option>
+					<option value="0">0:00</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+                </select>
+				 <select name="lunc" class="tm-select" id="lunc" required>
+                  	<option value="n">Cierre</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+					<option value="24">23:59</option>
+                </select>
+              </div>
+				<div class="form-group mb-4">
+				   Martes:
+                <select name="mara" class="tm-select" id="mara" required>
+                  	<option value="n">Apertura</option>
+					<option value="0">0:00</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+                </select>
+				 <select name="marc" class="tm-select" id="marc" required>
+                  	<option value="n">Cierre</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+					<option value="24">23:59</option>
+                </select>
+              </div>
+				<div class="form-group mb-4">
+				   Miércoles:
+                <select name="miea" class="tm-select" id="miea" required>
+                  	<option value="n">Apertura</option>
+					<option value="0">0:00</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+                </select>
+				 <select name="miec" class="tm-select" id="miec" required>
+                  	<option value="n">Cierre</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+					<option value="24">23:59</option>
+                </select>
+              </div>
+				<div class="form-group mb-4">
+				   Jueves:
+                <select name="juea" class="tm-select" id="juea" required>
+                  	<option value="n">Apertura</option>
+					<option value="0">0:00</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+                </select>
+				 <select name="juec" class="tm-select" id="juec" required>
+                  	<option value="n">Cierre</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+					<option value="24">23:59</option>
+                </select>
+              </div>
+				<div class="form-group mb-4">
+				   Viernes:
+                <select name="viea" class="tm-select" id="viea" required>
+                  	<option value="n">Apertura</option>
+					<option value="0">0:00</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+                </select>
+				 <select name="viec" class="tm-select" id="viec" required>
+                  	<option value="n">Cierre</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+					<option value="24">23:59</option>
+                </select>
+              </div>
+				<div class="form-group mb-4">
+				   Sábado:
+                <select name="saba" class="tm-select" id="saba" required>
+                  	<option value="n">Apertura</option>
+					<option value="0">0:00</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+                </select>
+				 <select name="sabc" class="tm-select" id="sabc" required>
+                  	<option value="n">Cierre</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+					<option value="24">23:59</option>
+                </select>
+              </div>
+				<div class="form-group mb-4">
+				   Domingo:
+                <select name="doma" class="tm-select" id="doma" required>
+                  	<option value="n">Apertura</option>
+					<option value="0">0:00</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+                </select>
+				 <select name="domc" class="tm-select" id="domc" required>
+                  	<option value="n">Cierre</option>
+					<option value="1">1:00</option>
+                  	<option value="2">2:00</option>
+                  	<option value="3">3:00</option>
+                  	<option value="4">4:00</option>
+                  	<option value="5">5:00</option>
+					<option value="6">6:00</option>
+					<option value="7">7:00</option>
+					<option value="8">8:00</option>
+                  	<option value="9">9:00</option>
+                  	<option value="10">10:00</option>
+                  	<option value="11">11:00</option>
+                  	<option value="12">12:00</option>
+				  	<option value="13">13:00</option>
+				 	<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+					<option value="24">23:59</option>
+                </select>
+              </div>
+				
+				<div class="form-group mb-0">
+                <button type="submit" class="btn btn-secondary">Cambiar</button>
+              </div>
+            </form>	
+                </div>
+              </div>
+            </div>
+			<!--Panel de entrega-->
+			  <div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tab5-tab">
+              <div class="media tm-media-2">
+                <i class="fas fa-5x fa-truck mb-3 tm-text-wine tm-media-2-icon"></i>
+                <div class="media-body tm-media-body-2">
+                	<p>¿Como entregas tu producto?. Las entregas y costos de envío de tu negocio se aplica solo en tu delegación o municipio.</p> 
+            <form action="#" method="post">
+               <div class="form-group mb-4">
+				   
+                <select name="entrega" class="tm-select" id="entrega" required>
+                  	<option value="0">Sin envío / solo mostrador</option>
+					<option value="1">Envío gratuito</option>
+					<option value="2">Envío con costo adicional</option>
+                </select>
+              </div>
+				
+				<div class="form-group mb-0">
+                <button type="submit" class="btn btn-secondary">Cambiar</button>
+              </div>
+            </form>	
+                </div>
+              </div>
+            </div>
+			<!--Panel de Imagen-->
+            <div class="tab-pane fade" id="tab6" role="tabpanel" aria-labelledby="tab4-tab">
+              <div class="media tm-media-2">
+                <i class="fas fa-5x fa-image mb-3 tm-text-wine tm-media-2-icon"></i>
+                <div class="media-body tm-media-body-2">
+					<p>Ayuda a tus clientes a reconocer tu negocio; sube un logo o imagen que represente tu restaurante.</p>
+                  <form action="#" method="post" enctype="multipart/form-data">
+				<div class="form-group mb-4">
+				<p>Logo/Foto de tu negocio:</p>
+                <input type="file" id="imagen" name="imagen" accept="image/*"class="form-control" onchange="validateFileType()" />
+				<script type="text/javascript"> 
+					function validateFileType(){ 
+					 var fileName = document.getElementById("fileName").value; 
+					 var idxDot = fileName.lastIndexOf(".") + 1; 
+					 var extFile = fileName.substr(idxDot, fileName.length).toLowerCase(); 
+					 if (extFile=="jpg" || extFile=="jpeg" || extFile=="png"){ 
+					  //TO DO 
+					 }else{ 
+					  alert("Only jpg/jpeg and png files are allowed!"); 
+					 } 
+					} 
+				</script> 
+					</br>
+					  </br>
+				<p>El logo o foto de tu negocio no debe ser mayor a 300x300 pixeles.</p>
+				<p>La imagen no debe ser superior a 300Kb.</p>
+				<p>Formatos permitidos: jpg, png y gif</p>
+				<p>La imagen que sustituyas se eliminara del servidor al guardar. No podrás recuperarlo despues.</p>
+			</div>			
+              
+              <div class="form-group mb-0">
+                <button type="submit" class="btn btn-secondary">Guardar</button>
+              </div>
+            </form>
+                </div>
+              </div>
+            </div>
+			  <!--Panel de Contrasena-->
+			  <div class="tab-pane fade" id="tab7" role="tabpanel" aria-labelledby="tab4-tab">
+              <div class="media tm-media-2">
+                <i class="fas fa-5x fa-key mb-3 tm-text-wine tm-media-2-icon"></i>
+                <div class="media-body tm-media-body-2">
+					<p>Evita cambiar tu contraseña continuamente. Al cambiar, tendrás que volver a iniciar sesión.</p>
+                 <form action="#" method="post">
+					<div class="form-group mb-4">
+						<input type="password" id="pass" name="pass" class="form-control" placeholder="Contraseña anterior:" />
+					  </div>
+						<div class="form-group mb-4">
+						<input type="password" id="pass" name="pass" class="form-control" placeholder="Nueva contraseña:" />
+					  </div>
+						<div class="form-group mb-4">
+						<input type="password" id="reppass" name="reppass" class="form-control" placeholder="Repetir contraseña:" required/>
+					  </div>
+					  <div class="form-group mb-0">
+						<button type="submit" class="btn btn-secondary">Cambiar</button>
+              </div>
+            </form>
+                </div>
+              </div>
+            </div>
+			  
+          </div>
+
+        </div>
+	<!--FIN de paneles de informacion-->
+      </div>
+<!--FIN de paneles con menu lateral-->	
+	  
+	  
+	  
+	  
+
+
+      <div class="row tm-mb-big tm-subscribe-row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 tm-bg-gray tm-subscribe-form">
+          <h3 class="tm-text-pink tm-mb-30">Subscribe our updates!</h3>
+          <p class="tm-mb-30">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi semper, ligula et pretium porttitor, leo orci accumsan ligula.</p>
+          <form action="index.html" method="POST">
+            <div class="form-group mb-0">
+              <input type="text" class="form-control tm-subscribe-input" placeholder="Your Email">
+              <input type="submit" value="Submit" class="tm-bg-pink tm-text-white d-block ml-auto tm-subscribe-btn">
+            </div>
+          </form>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 img-fluid pl-0 tm-subscribe-img"></div>
+      </div>
+
+      <div class="row tm-mb-medium">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+          <h4 class="mb-4 tm-font-300">Latest Albums</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Sed fringilla consectetur</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Mauris porta nisl quis</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Quisque maximus quam nec</a>
+          <a href="#" class="tm-text-blue-dark d-block">Class aptent taciti sociosqu ad</a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+          <h4 class="mb-4 tm-font-300">Our Pages</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Nam dapibus imperdiet</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Primis in faucibus orci</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Sed interdum blandit dictum</a>
+          <a href="#" class="tm-text-blue-dark d-block">Donec non blandit nisl</a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <h4 class="mb-4 tm-font-300">Quick Links</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Nullam scelerisque mauris</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Vivamus tristique enim non orci</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Luctus et ultrices posuere</a>
+          <a href="#" class="tm-text-blue-dark d-block">Cubilia Curae</a>
+        </div>
+      </div>
+      <footer class="row">
+        <div class="col-xl-12">
+          <p class="text-center p-4">Copyright &copy; <span class="tm-current-year">2018</span> Your Company Name 
+          
+          - Design:  Tooplate</p>
+        </div>
+      </footer>
+    </div> <!-- .container -->
+
+  </div> <!-- .main -->
+
+  <!-- load JS -->
+  <script src="js/jquery-3.2.1.slim.min.js"></script> <!-- https://jquery.com/ -->
+  <script>
+
+    /* DOM is ready
+    ------------------------------------------------*/
+    $(function () {
+
+      if (renderPage) {
+        $('body').addClass('loaded');
+      }
+
+      $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+    });
+
+  </script>
+</body>
+</html>
